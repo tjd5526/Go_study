@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func retThree(x int) (int, int, int) {
 	return 2 * x, x * x, -x

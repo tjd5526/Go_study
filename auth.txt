@@ -1,0 +1,11 @@
+Dec 12 09:23:51 chiqueen sshd[12835]: Disconnected from authenticating user root 117.144.188.195 port 42524 [preauth]
+Dec 12 09:23:56 chiqueen sshd[12844]: Invalid user vandyck from 190.147.159.34 port 24737
+Dec 12 09:23:56 chiqueen sshd[12844]: pam_unix(sshd:auth): check pass; user unknown
+Dec 12 09:23:56 chiqueen sshd[12844]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=190.147.159.34
+Dec 12 09:23:59 chiqueen sshd[12844]: Failed password for invalid user vandyck from 190.147.159.34 port 24737 ssh2
+Dec 12 09:23:59 chiqueen sshd[12844]: Received disconnect from 190.147.159.34 port 24737:11: Bye Bye [preauth]
+Dec 12 09:23:59 chiqueen sshd[12844]: Disconnected from invalid user vandyck 190.147.159.34 port 24737 [preauth]
+Dec 12 09:24:27 chiqueen sshd[12888]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.31.32.150  user=root
+Dec 12 09:24:30 chiqueen sshd[12888]: Failed password for root from 123.31.32.150 port 2606 ssh2
+Dec 12 09:24:30 chiqueen sshd[12888]: Received disconnect from 123.31.32.150 port 2606:11: Bye Bye [preauth]
+Dec 12 09:24:30 chiqueen sshd[12888]: Disconnected from authenticating user root 123.31.32.150 port 2606 [preauth]
